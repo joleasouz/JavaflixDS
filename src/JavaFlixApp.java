@@ -39,8 +39,7 @@ class Filme extends Midia{
 
     @Override
     public void exibirFicha() {
-        System.out.println("Título: " + titulo);
-        System.out.println("Ano de Lançamento: " + anoLancamento);
+        super.exibirFicha();
         System.out.println("Duração: "+ duracaoEmMinutos + "min");
     }
 }
@@ -56,8 +55,7 @@ class Serie extends Midia{
 
     @Override
     public void exibirFicha() {
-        System.out.println("Título: " + titulo);
-        System.out.println("Ano de Lançamento: " + anoLancamento);
+        super.exibirFicha();
         System.out.println("Total de Temporadas: " + totalTemporadas);
     }
 }
